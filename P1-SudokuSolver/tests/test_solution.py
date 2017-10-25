@@ -92,12 +92,6 @@ class TestDiagonalSudoku(unittest.TestCase):
                           'D1': '5'}
 
     def test_solve(self):
-        #print(self.solved_diag_sudoku)
-        #print(self.diagonal_grid)
-        #print("SOLUTION.SOLVE")
-        #print(solution.solve(self.diagonal_grid))
-        #print("-----")
-        
         self.assertEqual(solution.solve(self.diagonal_grid), self.solved_diag_sudoku)
 
 if __name__ == '__main__':
